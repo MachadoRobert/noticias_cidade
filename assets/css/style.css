@@ -80,20 +80,33 @@ body.home #menu a#home {
     
 }
 
-.principal {
+#principal {
     width: 270px;
     background: blue;
+    margin: 0 0 20px 195px;
     float: left;
 }
-.secundario {
+
+#secundario {
     width: 270px;
     background: green;
     float: left;
+    margin: 0 0 20px 15px;
 }
-.lateral{
+
+/*
+                    Barra Lateral
+    */
+#lateral{
     width: 180px;
-    background: yellow;
+    background: #fff url(../img/fundo-caixa.png);
     float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa-titulo {
+    background: blue;
+    line-height: 1em;
 }
 
 /*Rodapé*/
