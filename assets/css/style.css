@@ -82,14 +82,12 @@ body.home #menu a#home {
 
 #principal {
     width: 270px;
-    background: blue;
     margin: 0 0 20px 195px;
     float: left;
 }
 
 #secundario {
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
@@ -99,16 +97,20 @@ body.home #menu a#home {
     */
 #lateral{
     width: 180px;
-    background: #fff url(../img/fundo-caixa.png);
     float: left;
     margin: 0 0 20px -750px;
 }
 
 .caixa-titulo {
-    background: blue;
-    line-height: 1em;
+    background: #294c71;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 5px;
 }
-
+.caixa-conteudo{
+    background: #fff url(../img/fundo-caixa.png);
+    margin-top: 5px;
+}
 /*Rodapé*/
 footer{
     background: gray;
@@ -123,3 +125,13 @@ footer{
 .clear{
     clear: both;
 }
+
+#duas-colunas #principal{
+    width: 555px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+ #uma-coluna #principal {
+    width: 750px;
+    margin: 0 0 20px ;
+ }
